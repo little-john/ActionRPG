@@ -4,3 +4,7 @@ ActionRPG/ActionRPG.sln
 ActionRPG/.vsconfig
 ActionRPG/Logs/
 ActionRPG/UserSettings/
+*.csproj
+ActionRPG/.idea/
+ActionRPG/obj/
+NotesJsonTest/.idea/
