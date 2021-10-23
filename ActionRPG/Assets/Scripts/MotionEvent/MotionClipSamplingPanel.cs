@@ -43,6 +43,7 @@ public class MotionClipSamplingPanel : MonoBehaviour
 
         samplingTimeline.minValue = 0f;
         samplingTimeline.maxValue = clip.length;
+        samplingTimeline.value = 0f;
     }
 
 }
