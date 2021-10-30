@@ -16,6 +16,9 @@ public class MotionEventTool : MonoBehaviour
     [SerializeField]
     private MotionClipSamplingPanel samplingPanel = null;
 
+    [SerializeField]
+    private MotionEventPanel eventPanel = null;
+
     private GameObject samplingActor = null;
 
     private AnimationClip[] motionClips = null;
@@ -49,12 +52,14 @@ public class MotionEventTool : MonoBehaviour
                 currentClip = motionClip;
                 PlaySamplingAnim(0f);
                 samplingPanel.SetSamplingClip(currentClip);
+                eventPanel.Setup(motionClip);
             }
 
             mli.Setup(clipName, () => {
                 currentClip = motionClip;
                 PlaySamplingAnim(0f);
                 samplingPanel.SetSamplingClip(currentClip);
+                eventPanel.Setup(motionClip);
             });
         }
 
