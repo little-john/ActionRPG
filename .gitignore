@@ -4,3 +4,6 @@ ActionRPG/ActionRPG.sln
 ActionRPG/.vsconfig
 ActionRPG/Logs/
 ActionRPG/UserSettings/
+ActionRPG/Assembly-CSharp.csproj
+ActionRPG/.vs/
+ActionRPG/obj/
