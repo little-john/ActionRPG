@@ -184,7 +184,7 @@ namespace CollisionSample
 
         private void OnTriggerEnter(Collider other)
         {
-            myMat.SetColor("_Color", Color.red);
+            //myMat.SetColor("_Color", Color.red);
 
             if (other.CompareTag("Damage"))
             {

@@ -26,7 +26,7 @@ namespace CollisionSample
         void Update()
         {
             if (target == null)return;
-            agent.destination = target.position;        
+            agent.destination = target.position;
         }
 
         private void OnTriggerEnter(Collider other) 
